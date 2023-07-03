@@ -1,0 +1,20 @@
+{
+  "name": "open-music-queue-consumer",
+  "version": "1.0.0",
+  "description": "queue consumer for open music app api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rifqimuafa20",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.3",
+    "pg": "^8.11.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0"
+  }
+}
